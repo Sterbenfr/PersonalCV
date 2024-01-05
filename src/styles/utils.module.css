@@ -1,0 +1,143 @@
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  list-style-type: disc;
+  list-style: circle;
+
+  padding: 15px;
+  margin: 25px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.list .rating {
+  font-weight: bold;
+  color: #04aa6d;
+  font-size: large;
+  float: right;
+}
+
+.list li {
+  margin: 15px 15px;
+}
+
+.list .listItem {
+  opacity: 1 !important;
+  color: #04aa6d;
+  font-weight: bolder;
+  font-size: larger;
+  background-color: #d3c9c9;
+  padding: 15px 15px;
+  margin: 10px 20px;
+  border-radius: 25px;
+  box-shadow: -5px 5px 2px 0px #afa7a7;
+}
+
+.lightText {
+  color: #666;
+}
+
+.cardContainer {
+  display: block;
+  align-items: center;
+  background-color: #d3c9c9;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 4px 1px #666;
+  margin: 2rem;
+}
+
+.card {
+  color: #04aa6d;
+  font-size: larger;
+  font-weight: bolder;
+  margin: 10px 10px 1px 10px;
+}
+
+.more {
+  color: #666;
+  font-size: medium;
+  margin: 1px 10px 1px 10px;
+}
+
+.more2 {
+  color: #afa7a7;
+  font-size: medium;
+  margin: 1px 10px 1px 10px;
+}
+
+.description {
+  font-weight: bold;
+  margin: 10px;
+  color: #474545;
+  text-align: center;
+}
+
+.links {
+  text-align: center;
+}
+
+@media screen and (max-width: 585px) {
+  .list .listItem {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 433px) {
+  .list .listItem {
+    font-size: small;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .list .listItem {
+    font-size: small;
+  }
+
+  .list .rating {
+    font-size: medium;
+  }
+
+  .list {
+    font-size: medium;
+  }
+}

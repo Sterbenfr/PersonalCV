@@ -1,0 +1,139 @@
+{
+  "HomePage": {
+    "title": "Accueil",
+    "description": "La page d'accueil du CV en ligne de Pierre Caudreliez.",
+    "presentation": "Bonjour, je m'appelle Pierre Caudreliez, je suis étudiant dans le domaine de l'informatique chez ENIGMA.",
+    "goal": "Je suis en deuxième année d'un Bac +3 Administrateur des SI et je cherche actuellement un stage, de préférence en tant que développeur FullStack/ BackEnd. Il est de deux mois minimum et pouvant commencer dès le 16 Mai.",
+    "softSkills": "Je suis très engagé dans mes projets que je conduis volontier en équipe et je possède une grande créativité.",
+    "interest": "Je suis passionné par les minéraux et fossiles, je fais parti d'un club basé à Wasquehal ",
+    "interest2": " dans lequel j'aide a l'organisation d'un salon et de sorties recherches. À coté de cette passion, je me suis intéressé au développement au collège et j'ai commencé à apprendre le python. J'ai ensuite suivi une option informatique en seconde puis apres une première année de médecine j'ai intégré mon école actuelle, ENIGMA. Je fais en plus de la natation et j'aime le monde de la musique en général."
+  },
+  "SkillsPage": {
+    "title": "Compétences",
+    "description": "La page des compétences du CV en ligne de Pierre Caudreliez.",
+    "skills": {
+      "languages": {
+        "title": "Langues :",
+        "1stLanguage": "Anglais",
+        "1stLanguageRating": "C1",
+        "2ndLanguage": "Allemand",
+        "2ndLanguageRating": "B1"
+      },
+      "programmingLanguages": {
+        "title": "Languages de programmation : ",
+        "1": "Python",
+        "2": "C",
+        "3": "Html/CSS",
+        "4": "Java",
+        "5": "JavaScript",
+        "6": "NextJS",
+        "7": "nodeJS",
+        "8": "SQL",
+        "9": "API Rest"
+      },
+      "courses": {
+        "title": "Réseau & Cours :",
+        "CCNA1": "CCNA 1 (attesté)",
+        "CCNA2": "CCNA 2 (examens à passer)",
+        "adminLinux": "Admin système Linux",
+        "adminWindows": "Admin système Windows",
+        "Git": "Git et Github",
+        "SEO": "SEO et Web-Marketing",
+        "Management": "Gestion de projets"
+      },
+      "ratings": {
+        "1Star": "★ ☆ ☆ ☆ ☆",
+        "2Star": "★ ★ ☆ ☆ ☆",
+        "3Star": "★ ★ ★ ☆ ☆",
+        "4Star": "★ ★ ★ ★ ☆",
+        "5Star": "★ ★ ★ ★ ★"
+      }
+    }
+  },
+  "ProjectsPage": {
+    "title": "Projets",
+    "description": "La page des projets du CV en ligne de Pierre Caudreliez.",
+    "projects": {
+      "1": {
+        "title": "",
+        "goal&Date": "",
+        "technologies": "",
+        "description": ""
+      },
+      "2": {
+        "title": "",
+        "goal&Date": "",
+        "technologies": "",
+        "description": ""
+      }
+    },
+    "more": "La plupart de mes projets sont visibles sur mon GitHub : "
+  },
+  "EducationPage": {
+    "title": "Éducation",
+    "description": "La page des études suivies du CV en ligne de Pierre Caudreliez.",
+    "education": {
+      "1": {
+        "subject": "BAC Spécialités Physique-Chimie et SVT",
+        "date": "2020-2021,",
+        "location": "Lycée Alfred Chanzy, Charleville-Mézières, France",
+        "description": "Mention Assez-Bien - Option Mathématiques"
+      },
+      "2": {
+        "subject": "Première année de médecine",
+        "date": "2021-2022,",
+        "location": "Amiens, France",
+        "description": "Université de Picardie Jules Vernes"
+      },
+      "3": {
+        "subject": "BAC+3 - Responsable de projet informatique",
+        "date": "En cours",
+        "location": "Lille, France",
+        "description": "Deuxième année chez ENIGMA"
+      }
+    }
+  },
+  "ExperiencePage": {
+    "title": "Expérience Professionnelle",
+    "description": "La page d'expérience professionnelle du CV en ligne de Pierre Caudreliez.",
+    "experience": {
+      "1": {
+        "subject": "Stage d'observation dans un cabinet dentaire",
+        "office": "Cabinet dentaire du Dr Guiffant Laurence",
+        "dateOrLocation": "12/2017, Bruay-la-Buissière, France",
+        "description": "J'ai pu utiliser les logiciels de fiches patients, voir la stérilisation du matériel et les soins sur patients."
+      },
+      "2": {
+        "subject": "Stage développeur full-stack",
+        "office": "DiagRAMS technologies",
+        "dateOrLocation": "Lille, France",
+        "description": "Modification du Front et du Backend afin de les adapter à un nouveau schéma de fonctionnement, permettant aux utilisateurs de gérer plus facilement plusieurs usines sur l'application"
+      }
+    }
+  },
+  "Error": {
+    "title": "Quelque chose s'est mal passé !",
+    "description": "<p>Nous avons malheureusement rencontré une erreur.</p><p>Vous pouvez essayer de <retry>recharger la page</retry> que vous étiez en train de visiter.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Page non trouvée",
+    "description": "Veuillez vérifier la barre d'adresse du navigateur ou utilisez la navigation pour accéder à une page connue."
+  },
+  "LocaleSwitcher": {
+    "label": "Changer la langue",
+    "locale": "{locale, select, fr {Français} en {Anglais} other {Inconnu}}"
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "education": "Éducation",
+    "experience": "Expérience Professionnelle"
+  },
+  "Footer": {
+    "contact": {
+      "title": "Contact",
+      "cv": " Imprimer mon CV ici "
+    }
+  }
+}

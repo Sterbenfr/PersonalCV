@@ -1,0 +1,153 @@
+{
+  "HomePage": {
+    "title": "Home",
+    "description": "The home page of Pierre Caudreliez's online CV.",
+    "presentation": "Hello, my name is Pierre Caudreliez, I am studying computer science in ENIGMA.",
+    "goal": "I am in my first year of a Bac +3 and I am currently looking for an internship,preferably as a FullStack/ BackEnd developer. It is a minimum of two monthsand three months maximum. I can start as soon as June 12.",
+    "softSkills": "I am very committed to my projects and I like to work in teams and I have a great creativity.",
+    "interest": "I have a passion for minerals and fossils, I am part of a club based in Wasquehal ",
+    "interest2": " with which I do shows and field trips. Beside this passion, I got interested in development and started to learn python. I then followed a computer science option in high school and later integrated my current school, ENIGMA. I swim and I like listening and playing music."
+  },
+  "SkillsPage": {
+    "title": "Skills",
+    "description": "The skills page of Pierre Caudreliez's online CV.",
+    "skills": {
+      "languages": {
+        "title": "Languages: ",
+        "1stLanguage": "English",
+        "1stLanguageRating": "C1",
+        "2ndLanguage": "German",
+        "2ndLanguageRating": "B1"
+      },
+      "programmingLanguages": {
+        "title": "Programming languages: ",
+        "1": "Python",
+        "2": "C",
+        "3": "Html/CSS",
+        "4": "Java",
+        "5": "JavaScript",
+        "6": "NextJS",
+        "7": "nodeJS",
+        "8": "SQL",
+        "9": "Rest API"
+      },
+      "courses": {
+        "title": "Network & courses: ",
+        "CCNA1": "CCNA 1 (attested)",
+        "CCNA2": "CCNA 2 (Courses finished)",
+        "adminLinux": "Linux System Admin",
+        "adminWindows": "Windows System Admin",
+        "Git": "Git & Github",
+        "SEO": "SEO & Web-Marketing",
+        "Management": "Projects management"
+      },
+      "ratings": {
+        "1Star": "★ ☆ ☆ ☆ ☆",
+        "2Star": "★ ★ ☆ ☆ ☆",
+        "3Star": "★ ★ ★ ☆ ☆",
+        "4Star": "★ ★ ★ ★ ☆",
+        "5Star": "★ ★ ★ ★ ★"
+      }
+    }
+  },
+  "ProjectsPage": {
+    "title": "Projects",
+    "description": "The projects page of Pierre Caudreliez's online CV.",
+    "projects": {
+      "1": {
+        "title": "",
+        "goal&Date": "",
+        "technologies": "",
+        "description": ""
+      },
+      "2": {
+        "title": "",
+        "goal&Date": "",
+        "technologies": "",
+        "description": ""
+      }
+    },
+    "more": "My projects are mostly available on my GitHub : "
+  },
+  "EducationPage": {
+    "title": "Education",
+    "description": "The education page of Pierre Caudreliez's online CV.",
+    "education": {
+      "1": {
+        "subject": "Bacalaureat with a specialty in Physics/Chemistry and Biology",
+        "date": "2020-2021,",
+        "location": "Lycée Alfred Chanzy, Charleville-Mézières, France",
+        "description": "Mention Assez-Bien - Mathematics courses in option."
+      },
+      "2": {
+        "subject": "First year of medical school",
+        "date": "2021-2022,",
+        "location": "Amiens, France",
+        "description": "Université de Picardie Jules Vernes"
+      },
+      "3": {
+        "subject": "BAC+3 - IT Project Manager",
+        "date": "In progress",
+        "location": "Lille, France",
+        "description": "Second year at ENIGMA"
+      }
+    }
+  },
+  "ExperiencePage": {
+    "title": "Professional Experience",
+    "description": "The professional experience page of Pierre Caudreliez's online CV.",
+    "experience": {
+      "1": {
+        "subject": "Observation internship at a dental practice",
+        "office": "Dental office of Dr. Guiffant Laurence",
+        "dateOrLocation": "12/2017, Bruay-la-Buissière, France",
+        "description": "I was able to use patient record software, observe equipment sterilization, and assist with patient care."
+      },
+      "2": {
+        "subject": "Full-stack developer internship",
+        "office": "DiagRAMS technologies",
+        "dateOrLocation": "Lille, France",
+        "description": "Modified the Front and Backend to adapt them to a new operational scheme, allowing users to more easily manage multiple factories on the application."
+      }
+    }
+  },
+  "Error": {
+    "title": "Something went wrong!",
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, fr {French} en {English} other {Unknown}}"
+  },
+  "Navigation": {
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education",
+    "experience": "Professional Experience"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "title": "Docs",
+        "description": "Learn more about next-intl in the official docs.",
+        "href": "https://next-intl-docs.vercel.app/"
+      },
+      "source": {
+        "title": "Source code",
+        "description": "Browse the source code of this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
+      }
+    }
+  },
+  "Footer": {
+    "contact": {
+      "title": "Contact",
+      "cv": " Print my CV here "
+    }
+  }
+}
