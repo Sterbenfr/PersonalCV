@@ -40,11 +40,26 @@
 .list {
   list-style-type: disc;
   list-style: circle;
-
+  border: 1px solid transparent;
   padding: 15px;
-  margin: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   border-radius: 5px;
   font-weight: bold;
+}
+
+.listItem {
+  opacity: 1 !important;
+  color: #04aa6d;
+  font-weight: bolder;
+  font-size: larger;
+  background-color: #d3c9c9;
+  padding: 15px 15px;
+  margin: 10px 0px;
+  border-radius: 25px;
+  box-shadow: -5px 5px 2px 0px #afa7a7;
+  width: max-content;
+  list-style: none;
 }
 
 .list .rating {
@@ -54,20 +69,9 @@
   float: right;
 }
 
-.list li {
+.list li:not(.listItem) {
   margin: 15px 15px;
-}
-
-.list .listItem {
-  opacity: 1 !important;
-  color: #04aa6d;
-  font-weight: bolder;
-  font-size: larger;
-  background-color: #d3c9c9;
-  padding: 15px 15px;
-  margin: 10px 20px;
-  border-radius: 25px;
-  box-shadow: -5px 5px 2px 0px #afa7a7;
+  box-sizing: border-box;
 }
 
 .lightText {

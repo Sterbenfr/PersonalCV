@@ -34,6 +34,9 @@ export default async function LocaleLayout({
 
   return (
     <html className={styles.html} lang={locale}>
+      <head>
+        <link rel='icon' type='image/png' href='/favicon.png' />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )

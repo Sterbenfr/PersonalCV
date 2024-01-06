@@ -14,105 +14,91 @@ export default function Home({ params }: paramsProps) {
     <PageLayout>
       <section className={utilStyles.headingMd}>
         <ul className={utilStyles.list}>
-          <span className={utilStyles.listItem}>{t('languages.title')}</span>
-          <p>
-            <li>
-              {t('languages.1stLanguage')}{' '}
-              <span className={utilStyles.rating}>
-                {t('languages.1stLanguageRating')}
-              </span>
-            </li>
-            <li>
-              {t('languages.2ndLanguage')}{' '}
-              <span className={utilStyles.rating}>
-                {t('languages.2ndLanguageRating')}
-              </span>
-            </li>
-          </p>
-          <span className={utilStyles.listItem}>
+          <li className={utilStyles.listItem}>{t('languages.title')}</li>
+          <li>
+            {t('languages.1stLanguage')}{' '}
+            <span className={utilStyles.rating}>
+              {t('languages.1stLanguageRating')}
+            </span>
+          </li>
+          <li>
+            {t('languages.2ndLanguage')}{' '}
+            <span className={utilStyles.rating}>
+              {t('languages.2ndLanguageRating')}
+            </span>
+          </li>
+        </ul>
+        <ul className={utilStyles.list}>
+          <li className={utilStyles.listItem}>
             {t('programmingLanguages.title')}
-          </span>
-          <p>
-            <li>
-              {t('programmingLanguages.1')}{' '}
-              <span className={utilStyles.rating}>{t('ratings.5Star')}</span>{' '}
-            </li>
-            <li>
-              {t('programmingLanguages.2')}{' '}
-              <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
-            </li>
-            <li>
-              {t('programmingLanguages.3')}{' '}
-              <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
-            </li>
-            <li>
-              {t('programmingLanguages.4')}{' '}
-              <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
-            </li>
-            <li>
-              {t('programmingLanguages.5')}{' '}
-              <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
-            </li>
-            <li>
-              {t('programmingLanguages.6')}{' '}
-              <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
-            </li>
-            <li>
-              {t('programmingLanguages.7')}{' '}
-              <span className={utilStyles.rating}>{t('ratings.3Star')}</span>{' '}
-            </li>
-            <li>
-              {t('programmingLanguages.8')}{' '}
-              <span className={utilStyles.rating}>{t('ratings.3Star')}</span>{' '}
-            </li>
-            <li>
-              {t('programmingLanguages.9')}{' '}
-              <span className={utilStyles.rating}>{t('ratings.3Star')}</span>{' '}
-            </li>
-          </p>
-          <span className={utilStyles.listItem}>{t('courses.title')}</span>
-          <p>
-            <li>
-              {t('courses.CCNA1')}
-              <span className={utilStyles.rating}>
-                {t('ratings.5Star')}
-              </span>{' '}
-            </li>
-            <li>
-              {t('courses.Git')}{' '}
-              <span className={utilStyles.rating}>{t('ratings.5Star')}</span>{' '}
-            </li>
-            <li>
-              {t('courses.adminLinux')}
-              <span className={utilStyles.rating}>
-                {t('ratings.5Star')}
-              </span>{' '}
-            </li>
-            <li>
-              {t('courses.CCNA2')}
-              <span className={utilStyles.rating}>
-                {t('ratings.4Star')}
-              </span>{' '}
-            </li>
-            <li>
-              {t('courses.adminWindows')}
-              <span className={utilStyles.rating}>
-                {t('ratings.4Star')}
-              </span>{' '}
-            </li>
-            <li>
-              {t('courses.SEO')}
-              <span className={utilStyles.rating}>
-                {t('ratings.4Star')}
-              </span>{' '}
-            </li>
-            <li>
-              {t('courses.Management')}
-              <span className={utilStyles.rating}>
-                {t('ratings.3Star')}
-              </span>{' '}
-            </li>
-          </p>
+          </li>
+          <li>
+            {t('programmingLanguages.1')}{' '}
+            <span className={utilStyles.rating}>{t('ratings.5Star')}</span>{' '}
+          </li>
+          <li>
+            {t('programmingLanguages.2')}{' '}
+            <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
+          </li>
+          <li>
+            {t('programmingLanguages.3')}{' '}
+            <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
+          </li>
+          <li>
+            {t('programmingLanguages.4')}{' '}
+            <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
+          </li>
+          <li>
+            {t('programmingLanguages.5')}{' '}
+            <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
+          </li>
+          <li>
+            {t('programmingLanguages.6')}{' '}
+            <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
+          </li>
+          <li>
+            {t('programmingLanguages.7')}{' '}
+            <span className={utilStyles.rating}>{t('ratings.3Star')}</span>{' '}
+          </li>
+          <li>
+            {t('programmingLanguages.8')}{' '}
+            <span className={utilStyles.rating}>{t('ratings.3Star')}</span>{' '}
+          </li>
+          <li>
+            {t('programmingLanguages.9')}{' '}
+            <span className={utilStyles.rating}>{t('ratings.3Star')}</span>{' '}
+          </li>
+        </ul>
+        <ul className={utilStyles.list}>
+          <li className={utilStyles.listItem}>{t('courses.title')}</li>
+          <li>
+            {t('courses.CCNA1')}
+            <span className={utilStyles.rating}>{t('ratings.5Star')}</span>{' '}
+          </li>
+          <li>
+            {t('courses.Git')}{' '}
+            <span className={utilStyles.rating}>{t('ratings.5Star')}</span>{' '}
+          </li>
+          <li>
+            {t('courses.adminLinux')}
+            <span className={utilStyles.rating}>{t('ratings.5Star')}</span>{' '}
+          </li>
+          <li>
+            {t('courses.CCNA2')}
+            <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
+          </li>
+          <li>
+            {t('courses.adminWindows')}
+            <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
+          </li>
+          <li>
+            {t('courses.SEO')}
+            <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
+          </li>
+          <li>
+            {t('courses.Management')}
+            <span className={utilStyles.rating}>{t('ratings.3Star')}</span>{' '}
+          </li>
         </ul>
       </section>
     </PageLayout>
