@@ -21,15 +21,18 @@
       },
       "programmingLanguages": {
         "title": "Programming languages: ",
-        "1": "Python",
-        "2": "C",
-        "3": "Html/CSS",
-        "4": "Java",
-        "5": "JavaScript",
-        "6": "NextJS",
-        "7": "nodeJS",
-        "8": "SQL",
-        "9": "Rest API"
+        "python": "Python",
+        "c": "C",
+        "web": "Html/CSS",
+        "java": "Java",
+        "js": "JavaScript",
+        "nextjs": "NextJS",
+        "nodejs": "nodeJS",
+        "sql": "SQL",
+        "api": "Rest API",
+        "ts": "TypeScript",
+        "php": "PHP",
+        "iot": "IoT/Arduino"
       },
       "courses": {
         "title": "Network & courses: ",
@@ -39,7 +42,8 @@
         "adminWindows": "Windows System Admin",
         "Git": "Git & Github",
         "SEO": "SEO & Web-Marketing",
-        "Management": "Projects management"
+        "Management": "Projects management",
+        "data": "Data manipulation"
       },
       "ratings": {
         "1Star": "★ ☆ ☆ ☆ ☆",
@@ -117,7 +121,8 @@
   },
   "NotFoundPage": {
     "title": "Page not found",
-    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+    "reload": "Reload page"
   },
   "LocaleSwitcher": {
     "label": "Change language",
@@ -129,20 +134,6 @@
     "projects": "Projects",
     "education": "Education",
     "experience": "Professional Experience"
-  },
-  "PageLayout": {
-    "links": {
-      "docs": {
-        "title": "Docs",
-        "description": "Learn more about next-intl in the official docs.",
-        "href": "https://next-intl-docs.vercel.app/"
-      },
-      "source": {
-        "title": "Source code",
-        "description": "Browse the source code of this example on GitHub.",
-        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
-      }
-    }
   },
   "Footer": {
     "contact": {

@@ -37,6 +37,31 @@
   padding-top: 1px;
 }
 
+.centerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button {
+  background-color: #333;
+  color: #04aa6d;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-color: #333;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #04aa6d;
+  color: aliceblue;
+  border-color: #04aa6d;
+  transition: all 0.3s ease-in-out;
+}
+
 .list {
   list-style-type: disc;
   list-style: circle;

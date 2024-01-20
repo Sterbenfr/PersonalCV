@@ -33,39 +33,51 @@ export default function Home({ params }: paramsProps) {
             {t('programmingLanguages.title')}
           </li>
           <li>
-            {t('programmingLanguages.1')}{' '}
+            {t('programmingLanguages.nextjs')}{' '}
             <span className={utilStyles.rating}>{t('ratings.5Star')}</span>{' '}
           </li>
           <li>
-            {t('programmingLanguages.2')}{' '}
+            {t('programmingLanguages.nodejs')}{' '}
+            <span className={utilStyles.rating}>{t('ratings.5Star')}</span>{' '}
+          </li>
+          <li>
+            {t('programmingLanguages.js')}{' '}
+            <span className={utilStyles.rating}>{t('ratings.5Star')}</span>{' '}
+          </li>
+          <li>
+            {t('programmingLanguages.ts')}{' '}
+            <span className={utilStyles.rating}>{t('ratings.5Star')}</span>{' '}
+          </li>
+          <li>
+            {t('programmingLanguages.python')}{' '}
+            <span className={utilStyles.rating}>{t('ratings.5Star')}</span>{' '}
+          </li>
+          <li>
+            {t('programmingLanguages.web')}{' '}
+            <span className={utilStyles.rating}>{t('ratings.5Star')}</span>{' '}
+          </li>
+          <li>
+            {t('programmingLanguages.sql')}{' '}
             <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
           </li>
           <li>
-            {t('programmingLanguages.3')}{' '}
+            {t('programmingLanguages.api')}{' '}
             <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
           </li>
           <li>
-            {t('programmingLanguages.4')}{' '}
+            {t('programmingLanguages.c')}{' '}
             <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
           </li>
           <li>
-            {t('programmingLanguages.5')}{' '}
+            {t('programmingLanguages.iot')}{' '}
             <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
           </li>
           <li>
-            {t('programmingLanguages.6')}{' '}
-            <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
-          </li>
-          <li>
-            {t('programmingLanguages.7')}{' '}
+            {t('programmingLanguages.java')}{' '}
             <span className={utilStyles.rating}>{t('ratings.3Star')}</span>{' '}
           </li>
           <li>
-            {t('programmingLanguages.8')}{' '}
-            <span className={utilStyles.rating}>{t('ratings.3Star')}</span>{' '}
-          </li>
-          <li>
-            {t('programmingLanguages.9')}{' '}
+            {t('programmingLanguages.php')}{' '}
             <span className={utilStyles.rating}>{t('ratings.3Star')}</span>{' '}
           </li>
         </ul>
@@ -97,6 +109,10 @@ export default function Home({ params }: paramsProps) {
           </li>
           <li>
             {t('courses.Management')}
+            <span className={utilStyles.rating}>{t('ratings.4Star')}</span>{' '}
+          </li>
+          <li>
+            {t('courses.data')}
             <span className={utilStyles.rating}>{t('ratings.3Star')}</span>{' '}
           </li>
         </ul>

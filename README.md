@@ -1,36 +1,37 @@
-# CV en ligne - Caudreliez
+# Online CV - Caudreliez
 
-Ce site est mon CV en ligne que j'utilise à la fois pour montrer a des
-potentiels recruteurs mes compétences techniques tout autant que pour envoyer
-quelque chose qui n'est pas un fichier dans mes recherches de stages ce qui
-supprime quelques problèmes potentiels.
+Welcome to my statically built online CV, crafted with React and TypeScript.
+This interactive platform is designed to showcase my technical proficiency and
+professional journey, offering a dynamic alternative to conventional CV formats.
 
-## Présentation du projet
+## Project Overview
 
-Ce projet a été réalisé dans le cadre de ma formation en Green IT. Il s'agit
-d'un CV en ligne qui présente mes compétences, mon expérience et mon parcours
-professionnel.
+Developed as part of my Green IT training, this project stands as an engaging CV
+that presents my skills, experiences, and professional journey in a
+user-friendly format.
 
-## Technologies utilisées
+## Technologies Used
 
-Ce site a été réalisé en utilisant les technologies suivantes :
+This application was built using the following technologies:
 
-- HTML5
-- CSS3
-- JavaScript
+- React
+- TypeScript
+- CSS modules
+- Next.js for server-side rendering
+- next-intl for internationalization
 
-## Où le consulter
+## Where to View
 
-Vous pouvez consulter mon CV en ligne en vous rendant sur le site
-[cvcaudreliez.netlify.app](https://cvcaudreliez.netlify.app).
+You can view my online CV by visiting the site
+[pierre-caudreliez.vercel.app](https://pierre-caudreliez.vercel.app/).
 
 ## Contribution
 
-Ce projet est principalement à usage personnel. Cependant, si vous souhaitez
-contribuer ou suggérer des améliorations techniques, n'hésitez pas à ouvrir une
-issue ou à soumettre une pull request.
+While primarily intended for personal use, contributions and technical
+enhancements are encouraged. Feel free to open an issue or submit a pull request
+if you have valuable insights to share.
 
 ## Contact
 
-Si vous avez des questions ou des commentaires sur ce projet, n'hésitez pas à me
-contacter.
+If you have any questions or comments about this project, please don't hesitate
+to reach out. Your feedback is highly appreciated!

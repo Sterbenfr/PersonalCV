@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl'
 import PageLayout from '../../components/PageLayout'
+import ReloadButton from '../../components/ReloadButton'
 
 // Note that `app/[locale]/[...rest]/page.tsx`
 // is necessary for this page to render.
@@ -9,7 +10,8 @@ export default function NotFoundPage() {
 
   return (
     <PageLayout>
-      <p className='max-w-[460px]'>{t('description')}</p>
+      <p>{t('description')}</p>
+      <ReloadButton content={t('reload')} />
     </PageLayout>
   )
 }
