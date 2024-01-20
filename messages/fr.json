@@ -3,8 +3,8 @@
     "title": "Accueil",
     "description": "La page d'accueil du CV en ligne de Pierre Caudreliez.",
     "presentation": "Bonjour, je m'appelle Pierre Caudreliez, je suis étudiant dans le domaine de l'informatique chez ENIGMA.",
-    "goal": "Je suis en deuxième année d'un Bac +3 Administrateur des SI et je cherche actuellement un stage, de préférence en tant que développeur FullStack/ BackEnd. Il est de deux mois minimum et pouvant commencer dès le 16 Mai.",
-    "softSkills": "Je suis très engagé dans mes projets que je conduis volontier en équipe et je possède une grande créativité.",
+    "goal": "Je suis en deuxième année d'un Bac +3 Administrateur des SI et je cherche actuellement un stage, de préférence en tant que développeur FullStack/ BackEnd. Il est de deux mois minimum et peut commencer dès le 16 Mai.",
+    "softSkills": "Je suis très engagé dans mes projets et dans la vie d'équipe. Je fais aussi preuve d'une grande créativité dans mes manières de résoudre un problème.",
     "interest": "Je suis passionné par les minéraux et fossiles, je fais parti d'un club basé à Wasquehal ",
     "interest2": " dans lequel j'aide a l'organisation d'un salon et de sorties recherches. À coté de cette passion, je me suis intéressé au développement au collège et j'ai commencé à apprendre le python. J'ai ensuite suivi une option informatique en seconde puis apres une première année de médecine j'ai intégré mon école actuelle, ENIGMA. Je fais en plus de la natation et j'aime le monde de la musique en général."
   },
@@ -21,15 +21,18 @@
       },
       "programmingLanguages": {
         "title": "Languages de programmation : ",
-        "1": "Python",
-        "2": "C",
-        "3": "Html/CSS",
-        "4": "Java",
-        "5": "JavaScript",
-        "6": "NextJS",
-        "7": "nodeJS",
-        "8": "SQL",
-        "9": "API Rest"
+        "python": "Python",
+        "c": "C",
+        "web": "Html/CSS",
+        "java": "Java",
+        "js": "JavaScript",
+        "nextjs": "NextJS",
+        "nodejs": "nodeJS",
+        "sql": "SQL",
+        "api": "API Rest",
+        "ts": "TypeScript",
+        "php": "PHP",
+        "iot": "IoT/Arduino"
       },
       "courses": {
         "title": "Réseau & Cours :",
@@ -39,7 +42,8 @@
         "adminWindows": "Admin système Windows",
         "Git": "Git et Github",
         "SEO": "SEO et Web-Marketing",
-        "Management": "Gestion de projets"
+        "Management": "Gestion de projets",
+        "data": "Manipulation de données"
       },
       "ratings": {
         "1Star": "★ ☆ ☆ ☆ ☆",
@@ -117,7 +121,8 @@
   },
   "NotFoundPage": {
     "title": "Page non trouvée",
-    "description": "Veuillez vérifier la barre d'adresse du navigateur ou utilisez la navigation pour accéder à une page connue."
+    "description": "Veuillez vérifier la barre d'adresse du navigateur ou utilisez la navigation pour accéder à une page connue.",
+    "reload": "Recharger la page"
   },
   "LocaleSwitcher": {
     "label": "Changer la langue",
