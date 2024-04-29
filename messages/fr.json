@@ -27,7 +27,7 @@
         "java": "Java",
         "js": "JavaScript",
         "nextjs": "NextJS",
-        "nodejs": "nodeJS",
+        "nodejs": "NodeJS",
         "sql": "SQL",
         "api": "API Rest",
         "ts": "TypeScript",
@@ -58,20 +58,28 @@
     "title": "Projets",
     "description": "La page des projets du CV en ligne de Pierre Caudreliez.",
     "projects": {
-      "1": {
-        "title": "",
-        "goal&Date": "",
-        "technologies": "",
-        "description": ""
+      "CV": {
+        "title": "Ce CV en ligne",
+        "technologies": "NextJS, Typescript, NodeJS, modules CSS et next-intl",
+        "description": "Pour la tache finale de mon cour de green IT nous avons du créer notre CV en utilisant NextJS, je le met à jour et l'améliore depuis avec les compétences que j'acquiert au fur et a mesure de mes projets, stages et cours."
       },
-      "2": {
-        "title": "",
-        "goal&Date": "",
-        "technologies": "",
-        "description": ""
+      "Sperkise": {
+        "title": "Site de l'association Sperkise",
+        "technologies": "NextJS, Typescript, NodeJS et modules CSS",
+        "description": "Comme précisé dans ma présentation, je fais partie de l'association Sperkise car je suis passionné par les minéraux et fossiles. Cette association ayant besoin d'un site pour se faire connaitre et promouvoir le salon organisé a Wasqheal, je m'occupe de la refonte totale du site."
+      },
+      "Template": {
+        "title": "Template de site utilisant l'app routerde NextJs",
+        "technologies": "NextJS, Typescript, NodeJS, ESLint, Prettier et husky",
+        "description": "Etant en deuxième année et ayant fait un stage de première année m'ayant donnée des bases solides sur toutes ces technologies j'ai crée une roadmap pour les élèves de première année dans mon école pour qu'ils commencent dès la première année de leurs études a apprendre et utiliser des technologies utilisée dans le monde professionel et qu'ils apprennet les bonnes pratiques du dévellopement web. Pour qu'ils puissent démarer facilement un projet après avoir appris a utiliser ces technologies, j'ai donc créer cette template deja configurée pour qu'ils n'ai pas a passer par cette étape qui peut être source d'erreur et de confusion au début."
+      },
+      "Enigmatik": {
+        "title": "Enigma-Tik : la chasse au trésor par le BDE d'Enigma",
+        "technologies": "NextJS, Typescript, NodeJS, ESLint, Prettier et Tailwind CSS",
+        "description": "Notre école a fait une course d'orientation dans Lille pour la journée première journée de nos 1ère et 2ème année. Ayant eut de bon retour, l'école a chargée les élèves de deuxième année dont je fais partie de recréer un jeu de piste dans Lille qui pourra être utilisé pour les prochaines journée dites d'intégration qui s'appele donc Enigma-Tik."
       }
     },
-    "more": "La plupart de mes projets sont visibles sur mon GitHub : "
+    "more": "Pour en voir plus, la plupart de mes projets sont visibles sur mon GitHub : "
   },
   "EducationPage": {
     "title": "Éducation",
